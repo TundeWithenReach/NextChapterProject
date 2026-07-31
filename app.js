@@ -1,59 +1,67 @@
 const resources = [
   {
     name: 'The Fortune Society',
-    city: 'New York',
+    city: 'New York City',
     state: 'NY',
     services: ['Employment', 'Counseling', 'Housing'],
-    description: 'Offers reentry services, employment support, and peer coaching for people returning home.',
+    description: 'Offers reentry services, employment support, and peer coaching for people returning home in New York City.',
     url: 'https://www.fortunesociety.org'
   },
   {
+    name: 'Osborne Association',
+    city: 'Brooklyn',
+    state: 'NY',
+    services: ['Employment', 'Counseling', 'Advocacy'],
+    description: 'Provides reentry support, family services, and advocacy for people impacted by the justice system.',
+    url: 'https://www.osborneassociation.org'
+  },
+  {
     name: 'Center for Employment Opportunities',
-    city: 'Chicago',
-    state: 'IL',
+    city: 'New York City',
+    state: 'NY',
     services: ['Employment', 'Training'],
     description: 'Provides paid job placement and transition support for people leaving incarceration.',
     url: 'https://ceoworks.org'
   },
   {
-    name: 'JustLeadershipUSA',
-    city: 'National',
-    state: 'National',
-    services: ['Advocacy', 'Employment'],
-    description: 'Connects people impacted by the justice system with leadership, advocacy, and career opportunities.',
-    url: 'https://justleadershipusa.org'
+    name: 'Housing Works',
+    city: 'New York City',
+    state: 'NY',
+    services: ['Housing', 'Employment', 'Counseling'],
+    description: 'Connects people with housing support, healthcare access, and employment-related resources.',
+    url: 'https://www.housingworks.org'
   },
   {
-    name: 'National Reentry Resource Center',
-    city: 'National',
-    state: 'National',
-    services: ['Housing', 'Support'],
-    description: 'A hub for reentry information, policy references, and community-based supports.',
-    url: 'https://csgjusticecenter.org/nrrc/'
+    name: 'NYC Workforce1 Career Centers',
+    city: 'New York City',
+    state: 'NY',
+    services: ['Employment', 'Training'],
+    description: 'Free workforce development and job placement support through New York City career centers.',
+    url: 'https://www.nyc.gov/site/sbs/index.page'
   }
 ];
 
 const trainings = [
   {
-    title: 'Google Digital Garage',
-    category: 'Digital skills',
+    title: 'Per Scholas',
+    category: 'IT and digital skills',
     cost: 'Free',
-    description: 'Learn practical digital skills with beginner-friendly courses and certificates.',
-    url: 'https://learndigital.withgoogle.com/digitalgarage'
+    description: 'Offers no-cost tech training and career preparation for people seeking entry-level digital jobs.',
+    url: 'https://www.perscholas.org'
   },
   {
-    title: 'Coursera Audit Courses',
-    category: 'Career growth',
-    cost: 'Free to audit',
-    description: 'Explore courses in business, IT, and professional development at your own pace.',
-    url: 'https://www.coursera.org'
+    title: 'NYC Workforce1',
+    category: 'Career readiness',
+    cost: 'Free',
+    description: 'Connects job seekers with training, résumé support, and career center services across New York City.',
+    url: 'https://www.nyc.gov/site/sbs/index.page'
   },
   {
-    title: 'Goodwill Career Centers',
+    title: 'Goodwill NYNJ Career Services',
     category: 'Work readiness',
     cost: 'Free',
-    description: 'Access job coaching, resume help, and workforce development services.',
-    url: 'https://www.goodwill.org'
+    description: 'Provides job coaching, interviewing help, and support for people building a stable work path.',
+    url: 'https://www.goodwillnynj.org'
   }
 ];
 
