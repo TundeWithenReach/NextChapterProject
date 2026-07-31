@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Next Chapter Resource Finder</title>
+    <meta
+      name="description"
+      content="A resource finder for formerly incarcerated individuals seeking support, job opportunities, and free training."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="container">
+        <nav class="top-nav">
+          <a class="brand" href="#">Next Chapter Resource Finder</a>
+          <a class="nav-link" href="#resources">Explore resources</a>
+        </nav>
+        <div class="hero-content">
+          <div>
+            <p class="eyebrow">Reentry support • Job readiness • Free training</p>
+            <h1>Find second-chance resources that help you build stability and confidence.</h1>
+            <p class="hero-copy">
+              Discover programs and organizations that support formerly incarcerated individuals
+              with employment help, housing referrals, counseling, and free training opportunities.
+            </p>
+            <form id="resource-search" class="search-panel">
+              <div class="form-group">
+                <label class="sr-only" for="resource-query">Search resources</label>
+                <input id="resource-query" type="text" placeholder="Search by city, service, or keyword" />
+              </div>
+              <div class="form-group">
+                <label class="sr-only" for="service-filter">Service type</label>
+                <select id="service-filter">
+                  <option value="">All services</option>
+                  <option value="employment">Employment</option>
+                  <option value="housing">Housing</option>
+                  <option value="counseling">Counseling</option>
+                  <option value="training">Training</option>
+                  <option value="advocacy">Advocacy</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="sr-only" for="state-filter">State</label>
+                <select id="state-filter">
+                  <option value="">Any state</option>
+                  <option value="il">IL</option>
+                  <option value="ny">NY</option>
+                  <option value="national">National</option>
+                </select>
+              </div>
+              <button type="submit">Find resources</button>
+            </form>
+          </div>
+          <div class="hero-highlight">
+            <h2>What this app offers</h2>
+            <ul>
+              <li>Organizations that support reentry and second chances</li>
+              <li>Free skill-building programs and training pathways</li>
+              <li>Simple filtering so the right options are easier to find</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <section id="resources" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Resource directory</p>
+          <h2>Support organizations and community programs</h2>
+          <p>
+            Explore organizations that can connect people to employment, housing, counseling,
+            and practical reentry support.
+          </p>
+        </div>
+        <div id="resource-results" class="card-grid"></div>
+      </section>
+
+      <section class="section section-alt">
+        <div class="section-heading">
+          <p class="eyebrow">Free training</p>
+          <h2>Skill-building opportunities that can open doors</h2>
+          <p>
+            These programs are a starting point for people seeking job-ready training without a
+            large upfront cost.
+          </p>
+        </div>
+        <div id="training-results" class="card-grid"></div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Why it matters</p>
+          <h2>Support that helps people move forward with purpose</h2>
+        </div>
+        <div class="benefits-grid">
+          <article class="benefit-card">
+            <h3>Employment support</h3>
+            <p>Find organizations that help with job placement, resume support, and work readiness.</p>
+          </article>
+          <article class="benefit-card">
+            <h3>Skills for everyday life</h3>
+            <p>Build confidence through training in digital skills, budgeting, communication, and career growth.</p>
+          </article>
+          <article class="benefit-card">
+            <h3>Community connection</h3>
+            <p>Connect with organizations and programs that can offer encouragement and practical guidance.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
